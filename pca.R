@@ -8,5 +8,6 @@ names(pcaCars)
 # proportion of variance explained
 summary(pcaCars)
 
-# scree plot
-plot(pcaCars, type = "l")
+# bar plot
+plot(pcaCars)
+
